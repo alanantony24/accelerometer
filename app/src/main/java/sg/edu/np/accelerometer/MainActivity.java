@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 if(event != null){
                     float x_axis_value = event.values[0];
                     float y_axis_value = event.values[1];
-
                     float z_axis_value = event.values[2];
                     double magnitude = Math.sqrt(x_axis_value*x_axis_value + y_axis_value*y_axis_value + z_axis_value*z_axis_value);
                     double diff = magnitude - magnitudePrevious;
